@@ -1,16 +1,18 @@
-# SuperMe for Claude
+# SuperMe MCP for Claude
 
-Bring trusted perspectives from your SuperMe network into Claude.
+Access your professional network from Claude.
 
-This plugin connects Claude to SuperMe's hosted MCP server and includes a workflow for gathering and synthesizing perspectives from the people and experts in your network.
+This plugin packages the existing SuperMe remote MCP connector for Claude's plugin directory. It points to the same hosted server as the SuperMe connector and does not add a separate tool or workflow layer.
 
 ## What it provides
 
-- The live SuperMe MCP toolset through `https://mcp.superme.ai`
-- SuperMe authentication through the connector's OAuth flow
-- An `ask-your-network` skill that helps Claude find relevant perspectives and synthesize them clearly
+- Resolve and read profiles in your professional network
+- Discover experts on a topic
+- Ask a person, community, or workgroup a question
+- Use your SuperMe agent and manage workgroups
+- Authenticate through SuperMe's existing OAuth connector flow
 
-The MCP server remains the source of truth for tools and data. Tool updates are available without updating this plugin; the plugin is updated when its workflow guidance or metadata changes.
+The live MCP server at `https://mcp.superme.ai` remains the source of truth for tools, authentication, and data. Server tool updates are available without updating this plugin.
 
 ## Requirements
 
@@ -26,17 +28,17 @@ git clone https://github.com/superme-ai/claude-plugin.git
 claude --plugin-dir ./claude-plugin
 ```
 
-Claude will prompt you to connect and authorize SuperMe when a SuperMe tool is first needed.
+Claude may prompt you to authorize SuperMe when a SuperMe tool is first needed. If authentication is required in Claude Code, run `/mcp`, select `superme`, and choose **Authenticate**.
 
 ## Development
 
 Validate the plugin before publishing changes:
 
 ```sh
-claude plugin validate .
+claude plugin validate --strict .
 ```
 
-When changing the plugin, update the semantic version in `.claude-plugin/plugin.json`.
+When changing plugin metadata or configuration, update the semantic version in `.claude-plugin/plugin.json`.
 
 ## Links
 
