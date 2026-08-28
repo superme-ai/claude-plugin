@@ -1,0 +1,13 @@
+{
+  "name": "superme",
+  "description": "Access your professional network: read profiles, discover experts, ask people, communities, or workgroups questions, and manage workgroups.",
+  "version": "0.1.0",
+  "author": {
+    "name": "SuperMe",
+    "url": "https://www.superme.ai"
+  },
+  "homepage": "https://www.superme.ai",
+  "repository": "https://github.com/superme-ai/claude-plugin",
+  "license": "MIT",
+  "keywords": ["superme", "professional-network", "experts", "mcp"]
+}
