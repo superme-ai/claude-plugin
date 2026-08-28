@@ -1,0 +1,13 @@
+{
+  "name": "superme",
+  "description": "Bring trusted perspectives from your SuperMe network into Claude.",
+  "version": "0.1.0",
+  "author": {
+    "name": "SuperMe",
+    "url": "https://www.superme.ai"
+  },
+  "homepage": "https://www.superme.ai",
+  "repository": "https://github.com/superme-ai/claude-plugin",
+  "license": "MIT",
+  "keywords": ["superme", "network", "experts", "perspectives", "mcp"]
+}
