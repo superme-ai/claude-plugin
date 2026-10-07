@@ -14,12 +14,6 @@ This plugin packages the existing SuperMe remote MCP connector for Claude's plug
 
 The live MCP server at `https://mcp.superme.ai` remains the source of truth for tools, authentication, and data. Server tool updates are available without updating this plugin.
 
-## Example prompts
-
-- Find me the best experts on product-led growth.
-- Ask Elena Verna, Kyle Poyar, and Ben Williams about the biggest mistakes companies make with PLG.
-- Ask Mercedes Bent how she evaluates investments?
-
 ## Requirements
 
 - A SuperMe account
