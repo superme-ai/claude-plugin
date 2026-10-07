@@ -1,6 +1,6 @@
 # SuperMe MCP for Claude
 
-Find and ask experts.
+Trusted perspectives on demand
 
 This plugin packages the existing SuperMe remote MCP connector for Claude's plugin directory. It points to the same hosted server as the SuperMe connector and does not add a separate tool or workflow layer.
 

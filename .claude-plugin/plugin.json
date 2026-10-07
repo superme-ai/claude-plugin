@@ -1,7 +1,7 @@
 {
   "name": "superme",
   "displayName": "SuperMe",
-  "description": "SuperMe helps users find relevant professionals, inspect profiles, ask selected experts for their perspectives, synthesize answers, work with a personal My Agent, manage private workgroups, and attach files for agent context.",
+  "description": "Think it through with the people who’ve done the work.\n\nSuperMe brings perspectives from top operator profiles across product, growth, and marketing into Claude. Ask for advice, ideas, or feedback, and you’ll see constructive pushback, key context, and relevant trade-offs debated in real time by the actual people who’ve done the work, not just a single, summarized chat response.",
   "version": "1.0.0",
   "icon": "./logo.png",
   "documentationUrl": "https://github.com/superme-ai/claude-plugin#readme",
