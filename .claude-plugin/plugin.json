@@ -1,7 +1,7 @@
 {
   "name": "superme",
-  "description": "Access your professional network: read profiles, discover experts, ask people, communities, or workgroups questions, and manage workgroups.",
-  "version": "0.1.0",
+  "description": "SuperMe helps users find relevant professionals, inspect profiles, ask selected experts for their perspectives, synthesize answers, work with a personal My Agent, manage private workgroups, and attach files for agent context.",
+  "version": "0.1.1",
   "author": {
     "name": "SuperMe",
     "url": "https://www.superme.ai"
