@@ -1,6 +1,6 @@
 # SuperMe MCP for Claude
 
-Access your professional network from Claude.
+Find and ask experts.
 
 This plugin packages the existing SuperMe remote MCP connector for Claude's plugin directory. It points to the same hosted server as the SuperMe connector and does not add a separate tool or workflow layer.
 
@@ -13,6 +13,12 @@ This plugin packages the existing SuperMe remote MCP connector for Claude's plug
 - Authenticate through SuperMe's existing OAuth connector flow
 
 The live MCP server at `https://mcp.superme.ai` remains the source of truth for tools, authentication, and data. Server tool updates are available without updating this plugin.
+
+## Example prompts
+
+- Find me the best experts on product-led growth.
+- Ask Elena Verna, Kyle Poyar, and Ben Williams about the biggest mistakes companies make with PLG.
+- Ask Mercedes Bent how she evaluates investments?
 
 ## Requirements
 

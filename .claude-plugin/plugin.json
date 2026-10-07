@@ -4,6 +4,10 @@
   "description": "SuperMe helps users find relevant professionals, inspect profiles, ask selected experts for their perspectives, synthesize answers, work with a personal My Agent, manage private workgroups, and attach files for agent context.",
   "version": "1.0.0",
   "icon": "./logo.png",
+  "documentationUrl": "https://github.com/superme-ai/claude-plugin#readme",
+  "supportUrl": "https://www.superme.ai/support",
+  "privacyPolicyUrl": "https://www.superme.ai/privacy",
+  "termsOfServiceUrl": "https://www.superme.ai/terms",
   "author": {
     "name": "SuperMe",
     "url": "https://www.superme.ai"
