@@ -1,7 +1,8 @@
 {
   "name": "superme",
   "description": "SuperMe helps users find relevant professionals, inspect profiles, ask selected experts for their perspectives, synthesize answers, work with a personal My Agent, manage private workgroups, and attach files for agent context.",
-  "version": "0.1.1",
+  "version": "1.0.0",
+  "icon": "./logo.png",
   "author": {
     "name": "SuperMe",
     "url": "https://www.superme.ai"
